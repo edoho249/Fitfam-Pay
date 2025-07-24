@@ -1,0 +1,30 @@
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.responsive-image {
+  width: 100%;               /* Makes it responsive */
+  max-width: 800px;          /* You can increase this */
+  height: 450px;             /* Increase height */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 📱 Mobile: reduce size */
+@media (max-width: 600px) {
+  .responsive-image {
+    max-width: 95%;
+    height: 180px;
+  }
+}
+
