@@ -37,7 +37,7 @@ function Contact() {
           >
             <h1 style={{ fontSize: "7rem", margin: 0, lineHeight: "1" }}>Hello.</h1>
             <p style={{ fontSize: "1.5rem", marginTop: "1rem", maxWidth: "400px" }}>
-              Need to get in touch? We're all ears.
+              Need to get in touch? We're all ears..
             </p>
           </div>
 
